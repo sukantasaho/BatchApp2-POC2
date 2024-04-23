@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;BatchApp2-POC2/src/main/resources/MOCK_DATA.csv&apos; to &apos;Employee_Info.csv&apos;" description="Rename resource &apos;MOCK_DATA.csv&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/MOCK_DATA.csv" name="Employee_Info.csv" stamp="1708939906019" updateReferences="true"/>
+</session>

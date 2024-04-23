@@ -1,0 +1,16 @@
+package com.main.processor;
+
+import org.springframework.batch.item.ItemProcessor;
+import org.springframework.stereotype.Component;
+
+@Component("biProcessor")
+public class BookItemProcessor implements ItemProcessor<String, String> 
+{
+
+	@Override
+	public String process(String item) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.main.processor;
+
+import org.springframework.batch.item.ItemProcessor;
+import org.springframework.stereotype.Component;
+
+@Component("biProcessor")
+public class BookItemProcessor implements ItemProcessor<String, String> 
+{
+   
+	@Override
+	public String process(String item) throws Exception {
+		  //"AAJ","BBP","KL","UI","OP","ER","TY","QE"
+		String itemWithTitle=null;
+		itemWithTitle = item.equalsIgnoreCase("AAJ")?"by AAJ":item.equalsIgnoreCase("BBP")?"by BBP":item.equalsIgnoreCase("KL")?"by KL":
+			item.equalsIgnoreCase("UI")?"by UI":item.equalsIgnoreCase("OP")?"by OP":item.equalsIgnoreCase("ER")?"by ER":item.equalsIgnoreCase("TY")?"by TY"
+					:item.equalsIgnoreCase("QE")?"by QE":null;
+		return null;
+	}
+
+}

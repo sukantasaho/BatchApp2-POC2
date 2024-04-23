@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.batch.core.JobExecutionListener"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.batch.item.Chunk.ChunkIterator"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="org.springframework.batch.item.ItemWriter"/>
+    <fullyQualifiedTypeName name="org.springframework.batch.item.ItemReader"/>
+    <fullyQualifiedTypeName name="org.springframework.batch.item.ItemProcessor"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="javax.sql.DataSource"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.batch.item.file.FlatFileItemReader"/>
+    <fullyQualifiedTypeName name="org.springframework.core.io.ClassPathResource"/>
+    <fullyQualifiedTypeName name="org.springframework.batch.item.file.mapping.DefaultLineMapper"/>
+    <fullyQualifiedTypeName name="org.springframework.batch.item.file.transform.DelimitedLineTokenizer"/>
+    <fullyQualifiedTypeName name="org.springframework.batch.item.file.mapping.BeanWrapperFieldSetMapper"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.batch.item.database.JdbcBatchItemWriter"/>
+    <fullyQualifiedTypeName name="org.springframework.batch.item.database.BeanPropertyItemSqlParameterSourceProvider"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="com.main.model.Employee"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="org.springframework.batch.core.configuration.annotation.EnableBatchProcessing"/>
+</qualifiedTypeNameHistroy>

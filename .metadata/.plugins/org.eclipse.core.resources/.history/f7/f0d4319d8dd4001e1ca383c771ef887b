@@ -1,0 +1,18 @@
+package com.main.processor;
+
+import org.springframework.batch.item.ItemProcessor;
+
+import com.main.model.Employee;
+
+public class EmployeeInfoItemProcessor implements ItemProcessor<Employee, Employee> {
+
+	@Override
+	public Employee process(Employee emp) throws Exception {
+		 if(emp.getSalary()>=50000)
+		 {
+			 emp.setGrossSalary((float)Math.round(emp.getSalary()+emp.getSalary()*0.4f));
+		 }
+		return null;
+	}
+
+}
